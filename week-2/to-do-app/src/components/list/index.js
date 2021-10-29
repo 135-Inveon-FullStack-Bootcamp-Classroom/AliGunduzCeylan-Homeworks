@@ -9,11 +9,13 @@ function List({ tasks, setTasks }) {
         setCopyTask([...tasks])
     }, [tasks])
 
+    // delete task
     const destroyTask = (e) => {
         const id = e.target.id;
         setTasks(tasks.filter((item, index) => index != id))
     }
 
+    // when tasks checked
     const checked = (e) => {
         const name = e.target.name;
         setTasks(
@@ -33,6 +35,7 @@ function List({ tasks, setTasks }) {
 
     }
 
+    // for filter tasks
     const filter = (e) => {
         const name = e.target.name;
 

@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'react'
 
 function Form({ tasks, setTasks }) {
+
+    // initial form values
     const initialFormValues = { task: "", isCompleted: false };
     const [form, setForm] = useState(initialFormValues);
 
+    // when tasks dependency changed it will works
     useEffect(() => {
         setForm(initialFormValues);
     }, [tasks])
@@ -12,6 +15,7 @@ function Form({ tasks, setTasks }) {
         setForm({ ...form, [e.target.name]: e.target.value });
     }
 
+    // form submitted
     const onSubmit = (e) => {
         e.preventDefault();
 
@@ -19,7 +23,6 @@ function Form({ tasks, setTasks }) {
             return false;
         }
 
-        //console.log(form);
         setTasks([...tasks, form])
     }
 
