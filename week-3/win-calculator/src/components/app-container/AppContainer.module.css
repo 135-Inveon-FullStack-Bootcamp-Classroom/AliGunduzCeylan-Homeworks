@@ -1,0 +1,17 @@
+appContainer {
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    width: "100vw";
+    height: "100vh";
+    background-color: "#e5e5e5";
+}
+calculatorContainer {
+    background-color: "#333";
+    width: "20vw";
+    height: "70vw";
+    min-width: 250;
+    max-width: 500;
+    max-height: 450;
+}
+
