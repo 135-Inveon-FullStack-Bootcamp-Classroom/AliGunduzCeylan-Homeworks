@@ -1,4 +1,4 @@
-import KeyButton from "./KeyButton";
+import KeyButton from "../key-button/KeyButton";
 import styles from "./KeySection.module.css";
 
 const KeysSection = () => {

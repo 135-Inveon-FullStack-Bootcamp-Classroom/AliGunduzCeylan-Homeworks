@@ -1,6 +1,22 @@
 import { useState, useContext } from "react";
-import { CalcContext } from "../CalcContext";
-import styles from "./KeyButton.module.css";
+import { CalcContext } from "../../context/CalcContext";
+// import styles from "./KeyButton.module.css";
+
+const styles = {
+  keyContainer: {
+    width: "24.2%",
+    height: "16%",
+    border: "1px solid #232323",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  keyText: {
+    color: "#a5a5a5",
+    fontFamily: "arial",
+    fontSize: 15,
+  },
+};
 
 const getHoveredStyle = (isBlue) => {
   let hoveredStyle = { cursor: "pointer", backgroundColor: "#999" };

@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { CalcContext } from "../CalcContext";
+import { CalcContext } from "../../context/CalcContext";
 import styles from "./ScreenSection.module.css";
 
 const ScreenSection = () => {
