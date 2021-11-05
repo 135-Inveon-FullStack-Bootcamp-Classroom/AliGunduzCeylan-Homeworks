@@ -28,13 +28,13 @@ const getHoveredKeyTextStyle = (hovered) => {
   if (hovered) return { color: "black" };
 };
 
-const KeyButton = ({ label, isBlue, isNumber, operator }) => {
+const KeyButton = ({ label, isBlue, isNumber, operator, isDark }) => {
   const { handleKeyClick } = useContext(CalcContext);
 
   const [hovered, setHovered] = useState(false);
 
   const isBlueStyle = isBlue ? { backgroundColor: "#134569" } : {};
-  const isNumberStyle = isNumber ? { backgroundColor: "#070707" } : {};
+  const isDarkStyle = isDark ? { backgroundColor: "#070707" } : {};
   const isHoveredStyle = hovered ? getHoveredStyle(isBlue) : {};
 
   return (
@@ -42,7 +42,7 @@ const KeyButton = ({ label, isBlue, isNumber, operator }) => {
       style={{
         ...styles.keyContainer,
         ...isBlueStyle,
-        ...isNumberStyle,
+        ...isDarkStyle,
         ...isHoveredStyle,
       }}
       onMouseEnter={() => setHovered(true)}
