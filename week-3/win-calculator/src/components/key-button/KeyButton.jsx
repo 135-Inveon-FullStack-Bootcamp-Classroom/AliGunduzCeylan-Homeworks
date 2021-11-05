@@ -1,6 +1,5 @@
 import { useState, useContext } from "react";
 import { CalcContext } from "../../context/CalcContext";
-// import styles from "./KeyButton.module.css";
 
 const styles = {
   keyContainer: {

@@ -1,4 +1,14 @@
-import styles from "./TopHeader.module.css";
+const styles = {
+  topHeader: {
+    width: "100%",
+    height: "5%",
+  },
+  text: {
+    color: "#fff",
+    fontSize: 10,
+    margin: 5,
+  },
+};
 
 const TopHeader = () => (
   <div style={styles.topHeader}>

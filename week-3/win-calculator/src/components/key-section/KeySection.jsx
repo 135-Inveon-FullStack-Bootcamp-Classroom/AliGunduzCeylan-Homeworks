@@ -1,5 +1,13 @@
 import KeyButton from "../key-button/KeyButton";
-import styles from "./KeySection.module.css";
+
+const styles = {
+  container: {
+    width: "100%",
+    height: "65%",
+    display: "flex",
+    flexWrap: "wrap",
+  },
+};
 
 const KeysSection = () => {
   return (
