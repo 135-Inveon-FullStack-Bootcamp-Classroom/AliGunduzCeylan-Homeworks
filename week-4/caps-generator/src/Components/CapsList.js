@@ -6,8 +6,11 @@ import MemCard from "./MemeCard";
 import { useMemesContext } from "../Contexts/MemesContext";
 import { Link } from "react-router-dom";
 
+import { useSelector } from "react-redux";
+
 const CapsList = () => {
-  const { memes } = useMemesContext();
+  // const { memes } = useMemesContext();
+  const memes = useSelector((state) => state.memes.cards)
 
   if (!memes)
     return (
