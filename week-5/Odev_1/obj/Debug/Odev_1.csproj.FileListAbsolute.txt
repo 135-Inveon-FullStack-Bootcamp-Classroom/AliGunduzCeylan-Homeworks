@@ -1,0 +1,12 @@
+C:\Users\Alice\Downloads\Odev1-master\Odev_1\bin\Debug\Odev_1.exe
+C:\Users\Alice\Downloads\Odev1-master\Odev_1\bin\Debug\Odev_1.pdb
+C:\Users\Alice\Downloads\Odev1-master\Odev_1\obj\Debug\Odev_1.csprojAssemblyReference.cache
+C:\Users\Alice\Downloads\Odev1-master\Odev_1\obj\Debug\Odev_1.csproj.CoreCompileInputs.cache
+C:\Users\Alice\Downloads\Odev1-master\Odev_1\obj\Debug\Odev_1.exe
+C:\Users\Alice\Downloads\Odev1-master\Odev_1\obj\Debug\Odev_1.pdb
+D:\c# projeleri\Odev1-master\Odev_1\bin\Debug\Odev_1.exe
+D:\c# projeleri\Odev1-master\Odev_1\bin\Debug\Odev_1.pdb
+D:\c# projeleri\Odev1-master\Odev_1\obj\Debug\Odev_1.csprojAssemblyReference.cache
+D:\c# projeleri\Odev1-master\Odev_1\obj\Debug\Odev_1.exe
+D:\c# projeleri\Odev1-master\Odev_1\obj\Debug\Odev_1.pdb
+D:\c# projeleri\Odev1-master\Odev_1\obj\Debug\Odev_1.csproj.CoreCompileInputs.cache
