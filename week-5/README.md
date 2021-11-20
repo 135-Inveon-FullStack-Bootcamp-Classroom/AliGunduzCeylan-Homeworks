@@ -1,5 +1,3 @@
-# Ödev 1
-
 <p>İki boyutlu bir *“meydan”*(oyunun geçeceği haritanın ismi) üzerinde iki ayrı takımın farklı rütbelerdeki
 askerlerinin savaşarak rakip takımdaki askerlerin tamamını oyun dışı bırakmayı amaçladığı bir
 canlandırma istenmektedir.</p>
